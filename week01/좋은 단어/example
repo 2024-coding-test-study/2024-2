@@ -1,0 +1,9 @@
+true:
+    AABB
+    ABBA
+    AA
+    ABBABB
+false:
+    ABAB // 교차
+    AAA // 지점 교차
+    AB // 곡선 x
