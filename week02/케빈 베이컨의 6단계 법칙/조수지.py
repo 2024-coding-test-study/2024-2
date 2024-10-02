@@ -1,4 +1,5 @@
-# 11시 3분 시작
+# 1h
+
 from collections import deque
 
 def bfs(graph, start, n) :
@@ -31,7 +32,7 @@ for _ in range(m) :
   friends[a].append(b)
   friends[b].append(a)
 
-min = 999999
+min = 999999 # 최솟값 저장할 변수. 일단 큰 수로 초기화 해줬음
 
 for i in range(1, n + 1) :
   n_kb = bfs(friends, i, n) # n의 케빈 베이컨 수 구하기
