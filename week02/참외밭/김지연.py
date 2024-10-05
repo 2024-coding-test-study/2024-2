@@ -22,7 +22,6 @@ for direction, length in data:
         #가장 긴 가로 길이 인덱스 찾기
         idx = data.index((direction, length))
         h = abs(data[idx-1][1] - data[(idx+1)%6][1]) # idx = 5일때 다음 인덱스가 0이어야함 -> 6으로 나누기
-
     elif (direction == 3 or direction == 4) and length == max_height:
         #가장 긴 세로 길이 인덱스 찾기
         idx = data.index((direction, length))

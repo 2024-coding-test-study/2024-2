@@ -12,9 +12,9 @@ for _ in range(m):
     data[a-1][b-1], data[b-1][a-1] = 1, 1
 
 #최단 길이 구하기
-for i in range(n):
-    for j in range(n):
-        for k in range(n):
+for k in range(n):
+    for i in range(n):
+        for j in range(n):
             data[i][j] = min(data[i][j], data[i][k] + data[k][j])
 
 #row더해서 가장 작은 값인 사람이 케빈 베이컨의 수가 가장 적음
