@@ -26,19 +26,21 @@ def find_parent(parent, a, b):
   return 0
 
 
-N = int(sys.stdin.readline())
-points = [tuple(map(int, sys.stdin.readline().strip().split())) for _ in range(N)]
-parent = [i for i in range(N+1)]
+V, E = map(int, sys.stdin.readline().strip().split())
+parent = [0] * (V+1)
+
 edges = []
 result = 0
 
-#x, y, z 축별로 각 각 정렬
-for i in range(3):
-  #enumerrate 각 점에 index를 부여하는 함수 [(0, [x0, y0, z0]), (1, [x1, y1, z1]), ...]
-  temp = sorted(enumerate(points), key=lambda x: x[1][i])
-  for j in range(N-1):
-    cost = abs(temp[j][1][i] - temp[j+1][1][i])
-    edges.append((cost, temp[j][0], temp[j+1][0]))
+#부모 노드를 자기 자신으로 초기화
+for i in range(1, V+1):
+  parent[i] = i
+
+for _ in range(E):
+  a, b, cost = map(int, sys.stdin.readline().strip().split())
+  #비용 순으로 정렬하기 위해 cost를 제일 앞에 위치
+  edges.append((cost, a, b))
+
 edges.sort()
 
 for edge in edges:
