@@ -9,9 +9,10 @@ count = 0
 # 3, 2, 1 모두 연산해보면서 연산 수가 작은걸로 업데이트
 # n이 만들어질 수 있는 최소 연산 수를 저장한다 -> n까지의 배열을 만들어야함 최대 100만 이므로 가능
 #result[n]이 최소가..되도록..
-path = ["" for _ in range(n+1)]
-path[0] = "0"
-path[1] = "1"
+#경로를 저장하는 부분에서 막힘
+# path = ["" for _ in range(n+1)]
+path = [[i] for i in range(n+1)]
+
 # print(path)
 for i in range(2, n+1): #result[i] = i가 되기 위한 최소 연산값
     # print(path)
@@ -24,12 +25,8 @@ for i in range(2, n+1): #result[i] = i가 되기 위한 최소 연산값
     if i % 2 == 0 and result[i//2]+1 < result[i]:
         result[i] = result[i//2] + 1
         prev = i // 2
-    path[i] = str(i) + " " + path[prev]
+    path[i] = [i] + path[prev]
     
-    print(path)
-
-
-
     
 print(result[n])
-print(path[n])
+print(*path[n])
