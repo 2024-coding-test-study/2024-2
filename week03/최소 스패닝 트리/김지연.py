@@ -13,21 +13,23 @@ for i in range(e):
     graph[v2].append((cost, v1))
 
 
+
 #이런식으로 풀면도지않을까..?
-answer = 0
-# heapq.heappush(q, graph[1]) #node 1부터 시작
-for cost, node in graph[1]:
-    heapq.heappush(q,(node, cost))
-visited[1] = True
-while False in visited: 
-    total_cost = 0
-    print(q)
-    cost, node = heapq.heappop(q)
-    for cost, v in graph[node]: #node에 연결된 다른 노드 순차적으로 탐색
-        if total_cost:
-            visited[v] = True
-            print(v, cost)
-            answer += cost
-            for cost, node in graph[v]:
-                heapq.heappush(q,(node, cost))
+#최소 스패닝 트리 한번 최초 방문이 최소 cost를 이용한 것임(우선순위큐를 사용한다면) 방문을 했다면 다시 방문할 필요가 없음
+def bfs(start, total_cost):
+    heapq.heappush(q, (0, start))
+ 
+    while q:
+        cost, node = heapq.heappop(q)
+        if visited[node]:
+            continue
+        visited[node] = True 
+        total_cost += cost
+        for cost, v in graph[node]: #각 node에 연결된 간선을 cost가 적은 순으로 탐색하므로 한번 방문했으면 다시 검사하지 않아도됨. 해당 노드를 방문했다는 것은 이미 해당 노드에 연결된 간선 중에서 최소 비용으로 계산이 되었음을 의미함
+            if visited[v] == False:
+                heapq.heappush(q, (cost, v))
+    return total_cost
+        
+        
+answer = bfs(1, 0)
 print(answer)
