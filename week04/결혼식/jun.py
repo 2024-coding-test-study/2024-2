@@ -38,14 +38,13 @@ class Graph:
         
         return count
 
-# 입력 처리
-if __name__ == "__main__":
-    vertex_count = int(input())
-    repeat_num = int(input())
-    graph = Graph(vertex_count)
 
-    for _ in range(repeat_num):
-        x, y = map(int, input().split())
-        graph.add_edge(x, y)
+vertex_count = int(input())
+repeat_num = int(input())
+graph = Graph(vertex_count)
 
-    print(graph.bfs(1))
+for _ in range(repeat_num):
+    x, y = map(int, input().split())
+    graph.add_edge(x, y)
+
+print(graph.bfs(1))
