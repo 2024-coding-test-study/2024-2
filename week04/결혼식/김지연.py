@@ -9,7 +9,6 @@ for i in range(m):
     lst[a].append(b)
     lst[b].append(a)
 
-print(lst)
 visited = [False] * n
 visited[0] = True #상근이
 answer = 0 
