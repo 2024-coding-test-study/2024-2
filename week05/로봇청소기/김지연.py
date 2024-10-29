@@ -35,8 +35,8 @@ def clean(x, y):
     #모두 청소되어 있으면
     #후진
     if not move:
-        clean(x+dx[(idx+2)%4], y+dy[(idx+2)%4])
-        
+        clean(x+dx[(idx+2)%4], y+dy[(idx+2)%4]) 
+        #현재 위치에서 시계방향으로 180도 회전하면 뒤로 후진하는 것이므로 현재 방향에서 +2 해주면 180회전한것과 동일
     
 clean(r, c)
 print(cnt)
