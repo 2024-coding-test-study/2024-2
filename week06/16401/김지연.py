@@ -1,3 +1,4 @@
+import heapq
 m, n = map(int, input().split())
 lst = list(map(int, input().split()))
 lst.sort() #과자 길이 정렬 후 이분 탐색 
@@ -26,7 +27,7 @@ while answer != 0: #과자를 나눠줄 수 없을 때까지 반복
     mid = 0
     for i in range(m):
         mid = binary_search(mid, n-1, answer) #m개의 막대길이 (answer)를 lst에서 이분 탐색
-    print(answer, lst)
+        lst.sort()
     if mid == False:
         for i in range(len(lst)):
             lst[i] = copy_lst[i]
