@@ -21,6 +21,6 @@ for i in range(1, n + 1) : # 1~n개의 재료들에 대해서
             sour *= s
             bitter += b
 
-            MIN = min(MIN, abs(sour - bitter))
+        MIN = min(MIN, abs(sour - bitter))
 
 print(MIN)
