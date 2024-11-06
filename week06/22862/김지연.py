@@ -30,8 +30,10 @@ for idxs in comb:
         else: #홀수면 현재까지의 길이 저장후 now 위치 홀수 다음으로 이동
             answer = max(answer, length)
             now += 1
+
     #수열 원상복구   
     lst = []
     for i in range(n):
         lst.append(copy[i])
+        
 print(answer)
