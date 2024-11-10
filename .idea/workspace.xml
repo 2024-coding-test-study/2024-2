@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ba277f4-c814-4183-8b15-8446e8a33ef6" name="Changes" comment="케빈베이컨 문제 풀이">
-      <change afterPath="$PROJECT_DIR$/week06/16401/선지원.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week06/22862/선지원.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week06/2961/선지원.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week05/로봇청소기/선지원.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week05/트리순회/선지원.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week05/파일합치기3/선지원.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,11 +115,22 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="케빈베이컨 문제 풀이" />
     <option name="LAST_COMMIT_MESSAGE" value="케빈베이컨 문제 풀이" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Inyro_python_algorithm_study$.coverage" NAME="선지원 Coverage Results" MODIFIED="1730698231839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week06/22862" />
+    <SUITE FILE_PATH="coverage/Inyro_python_algorithm_study$.coverage" NAME="선지원 Coverage Results" MODIFIED="1730107134139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week05/파일합치기3" />
   </component>
 </project>
