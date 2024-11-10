@@ -51,8 +51,8 @@
   &quot;keyToString&quot;: {
     &quot;Python.선지원.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;week05-jiwon&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/jiwonseon/Projects/PycharmProjects/Inyro_python_algorithm_study/week05/로봇청소기&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;week06-jiwon&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jiwonseon/Projects/PycharmProjects/Inyro_python_algorithm_study/week06/22862&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -63,8 +63,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/week05/로봇청소기" />
-      <recent name="$PROJECT_DIR$/week05/트리순회" />
+      <recent name="$PROJECT_DIR$/week06/22862" />
+      <recent name="$PROJECT_DIR$/week06/16401" />
       <recent name="$PROJECT_DIR$/week04/이친수" />
       <recent name="$PROJECT_DIR$/week04/결혼식" />
       <recent name="$PROJECT_DIR$/week02/행성터널" />
@@ -99,7 +99,7 @@
       <workItem from="1727675634208" duration="1764000" />
       <workItem from="1727778961176" duration="2038000" />
       <workItem from="1728906591441" duration="1081000" />
-      <workItem from="1730105270063" duration="2124000" />
+      <workItem from="1730693695581" duration="4769000" />
     </task>
     <task id="LOCAL-00001" summary="케빈베이컨 문제 풀이">
       <option name="closed" value="true" />
