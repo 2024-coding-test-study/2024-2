@@ -9,18 +9,18 @@ value = float('inf') # 두 용액의 특성값 저장할 변수. 무한대로 �
 close_0 = [0, 0]
 
 while left < right :
-    total = solutions[left] + solutions[right]
+    SUM = solutions[left] + solutions[right]
 
-    if value > abs(total) :
-        value = abs(total) # 더 적은 특성값으로 바꾸기
+    if value > abs(SUM) :
+        value = abs(SUM) # 더 작은 특성값으로 바꾸기
 
         close_0[0] = solutions[left]
         close_0[1] = solutions[right]
 
-    if total > 0 :
+    if SUM > 0 :
         right -= 1
 
-    elif total < 0 :
+    elif SUM < 0 :
         left += 1
 
     else : # 합이 0이면 바로 반복문을 빠져나감
