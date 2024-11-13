@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ba277f4-c814-4183-8b15-8446e8a33ef6" name="Changes" comment="케빈베이컨 문제 풀이">
-      <change afterPath="$PROJECT_DIR$/week05/로봇청소기/선지원.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week05/트리순회/선지원.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week05/파일합치기3/선지원.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week07/1916/선지원.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week07/2431/선지원.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week07/2467/선지원.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +51,8 @@
   &quot;keyToString&quot;: {
     &quot;Python.선지원.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;week05-jiwon&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/jiwonseon/Projects/PycharmProjects/Inyro_python_algorithm_study/week05/로봇청소기&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;week07-jiwon&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jiwonseon/Projects/PycharmProjects/Inyro_python_algorithm_study/week07/2467&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -63,11 +63,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/week07/2467" />
+      <recent name="$PROJECT_DIR$/week07/2431" />
       <recent name="$PROJECT_DIR$/week05/로봇청소기" />
       <recent name="$PROJECT_DIR$/week05/트리순회" />
       <recent name="$PROJECT_DIR$/week04/이친수" />
-      <recent name="$PROJECT_DIR$/week04/결혼식" />
-      <recent name="$PROJECT_DIR$/week02/행성터널" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -100,6 +100,9 @@
       <workItem from="1727778961176" duration="2038000" />
       <workItem from="1728906591441" duration="1081000" />
       <workItem from="1730105270063" duration="2124000" />
+      <workItem from="1730975724036" duration="928000" />
+      <workItem from="1731111390002" duration="10274000" />
+      <workItem from="1731137162191" duration="38000" />
     </task>
     <task id="LOCAL-00001" summary="케빈베이컨 문제 풀이">
       <option name="closed" value="true" />
@@ -131,6 +134,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="케빈베이컨 문제 풀이" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Inyro_python_algorithm_study$.coverage" NAME="선지원 Coverage Results" MODIFIED="1730107134139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week05/파일합치기3" />
+    <SUITE FILE_PATH="coverage/Inyro_python_algorithm_study$.coverage" NAME="선지원 Coverage Results" MODIFIED="1731136944303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week07/2467" />
   </component>
 </project>
