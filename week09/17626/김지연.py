@@ -1,14 +1,21 @@
+import math
 n = int(input())
+num = int(math.sqrt(n))# n의 제곱근 보다 작은 정수 저장
+lst = [0] * (num + 1)
+result = 5
+for i in range(1, num+1):
+    lst[i] = i**2
+for i in range(num, 0, -1):
+    cnt = 0
+    now = lst[i]
+    start = n
+    while start > 0:
+        
+        start -= now #이 수 이후의 값이 들어갔을때
+        now = lst[int(math.sqrt(start))]
+        cnt += 1
+        
+    result = min(result, cnt)
+    
 
-lst = [5] * (n+1)
-lst[0] = 0
-lst[1], lst[2] = 1, 2
-for target in range(3, n+1):
-    for i in range(1, target//2+1):
-        #targetd을 만들 수 있는 두 자연수
-        if target / i == float(i):
-            lst[target] = 1
-            break
-        lst[target] = min(lst[target], lst[target-i] + lst[i])
-    # print(lst)
-print(lst[n])
+print(result) 
